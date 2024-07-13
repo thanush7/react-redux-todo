@@ -1,0 +1,49 @@
+
+/* #CACFD2 */
+.input-container{
+    width: 500px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 10px;
+    position: relative;
+    background-color:#17202A;
+    left: 25vh;
+}
+.date-time{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+   justify-content: start;
+   align-content: start;
+   align-items: start;
+   background-color:#17202A;
+}
+.date-time input,.task-title input{
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    font-weight:bold;
+}
+.task-title{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.task-title button{
+    border:none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+@media (max-width:360px) {
+    .input-container{
+        position: relative;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

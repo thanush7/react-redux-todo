@@ -1,0 +1,47 @@
+.task-display{
+    height: 50px;
+    width:500px ;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    margin-top: 5px;
+    gap: 10px;
+    position: relative;
+    background-color:hsl(212, 39%, 50%);
+    left: 25vh;
+    border-radius: 10px;
+}
+.task-list{
+    color: white;
+    display: grid;
+    font-weight: 50px;
+    grid-template-columns: repeat(3,3fr);
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+    justify-items:center;
+    margin-left: 5px;
+    gap: 50px;
+}
+.task-display .button-er{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: absolute;
+    right:10px;
+    gap: 5px;
+}
+.button-er button{
+    border:none;
+    border-radius: 5px;
+    padding:5px;
+    background-color:rgb(255, 106, 0);
+    color:white
+}
+@media (max-width:320px) {
+    .task-display{
+        position: relative;
+        left: 20px;
+        right: 0px;
+    }
+}
